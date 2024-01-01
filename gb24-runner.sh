@@ -2,7 +2,7 @@
 
 if [[ " $@ " =~ " --clean "  ]]; then
     echo ">>> Cleaning tmp..."
-    sudo rm -rf ./tmp
+    rm -rf ./tmp
 fi
 
 mkdir -p "tmp/docker_resources"

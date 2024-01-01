@@ -9,7 +9,7 @@ and to run:
 
 #### Run helper script `./gb24-runner.sh`
 Takes in options, as below:
-- `--clean` - cleans tmp folder of the script (requires sudo)
+- `--clean` - cleans tmp folder of the script
 - `--pull` - pulls latest changes from git repos (master branches)
   - Change gb24-api branch with `-I <branch_name>`
   - Change gb24-app branch with `-P <branch_name>`
