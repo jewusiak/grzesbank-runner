@@ -13,6 +13,7 @@ Takes in options, as below:
 - `--pull` - pulls latest changes from git repos (master branches)
   - Change gb24-api branch with `-I <branch_name>`
   - Change gb24-app branch with `-P <branch_name>`
+  - Hard reset to HEAD `-f`
 - `--gen-cert` generates self-signed SSL certs for 30 days
 - `--no-daemon` disables `-d` option in `docker compose`
 - `--build` forces `docker compose` to rebuild images
