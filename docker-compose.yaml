@@ -9,11 +9,8 @@ services:
         - API_HOST=localhost
         - API_PATH=/api
     container_name: gb24-app
-    ports:
-      - 8081:80
     networks:
       - intr
-      - extr
   
   back:
     image: gb24-api
@@ -30,6 +27,12 @@ services:
   nginx:
     image: nginx
     container_name: gb24-nginx
+    restart: unless-stopped
+    depends_on: 
+      front:
+        condition: service_started
+      back:
+        condition: service_started
     ports:
       - 80:80
       - 443:443

@@ -38,7 +38,7 @@ if [[ " $@ " =~ " --no-daemon "  ]]; then
   DMN=""
 fi
 
-(
+
 if [[ " $@ " =~ " --build "  ]]; then
   echo ">>> Compose with full rebuild..."
   docker compose up $DMN --build
@@ -46,4 +46,3 @@ else
   echo ">>> Compose with optional rebuild..."
   docker compose up $DMN
 fi
-) || docker compose down
