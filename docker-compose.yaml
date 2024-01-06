@@ -37,7 +37,7 @@ services:
       - 80:80
       - 443:443
     volumes:
-      - ./tmp/grzesbank_app/docker_resources/ngconf.conf:/etc/nginx/conf.d/default.conf
+      - ./ngconf.conf:/etc/nginx/conf.d/default.conf
       - ./tmp/docker_resources/private.key:/etc/ssl/private.key
       - ./tmp/docker_resources/cert.crt:/etc/ssl/cert.crt
     networks:
