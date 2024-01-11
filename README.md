@@ -8,8 +8,8 @@ and to run:
 `./run-docker.sh`
 
 #### Child repos
-- [https://github.com/jewusiak/grzesbank-api]()
-- [https://github.com/jewusiak/grzesbank_app]()
+- [https://github.com/jewusiak/grzesbank-api](https://github.com/jewusiak/grzesbank-api)
+- [https://github.com/jewusiak/grzesbank_app](https://github.com/jewusiak/grzesbank_app)
 
 #### Run helper script `./gb24-runner.sh`
 Takes in options, as below:
