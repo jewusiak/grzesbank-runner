@@ -7,6 +7,10 @@ To run GB24 app locally clone this repo, `cd` inside and type:
 and to run:
 `./run-docker.sh`
 
+#### Child repos
+- [https://github.com/jewusiak/grzesbank-api]()
+- [https://github.com/jewusiak/grzesbank_app]()
+
 #### Run helper script `./gb24-runner.sh`
 Takes in options, as below:
 - `--clean` - cleans tmp folder of the script
